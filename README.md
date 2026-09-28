@@ -22,4 +22,4 @@ Career dates and the 12+ years headline follow the supplied CV; project descript
 
 Fonts load from Google Fonts with system fallbacks. Local asset URLs are relative so the site works at the root GitHub Pages URL and in local previews.
 
-The Games section lists four Cluvex Tech titles verified against the Google Play developer page. AI copy reflects the CV’s AI-assisted development skill; it does not claim shipped AI products or model-training experience.
+The Games section lists four Android puzzle titles with direct Google Play links. AI copy reflects the CV’s AI-assisted development skill; it does not claim shipped AI products or model-training experience.
