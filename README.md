@@ -8,7 +8,7 @@ Run `python3 -m http.server 4173` from this folder and visit http://localhost:41
 
 ## Publish
 
-Push these files to the existing `main` branch. In GitHub repository Settings → Pages, select **Deploy from a branch**, **main**, **/(root)**. The site will be at https://vishalnandoriya.github.io/profile/ and the existing `/portfolio.pdf` URL remains intact.
+Push these files to the `main` branch of `VishalNandoriya/vishalnandoriya.github.io`. In GitHub repository Settings → Pages, select **Deploy from a branch**, **main**, **/(root)**. The site is published at https://vishalnandoriya.github.io/. The old `/profile/` site URL redirects to the root URL, and the original `/profile/portfolio.pdf` link remains available.
 
 ## Edit content
 
@@ -20,6 +20,6 @@ Push these files to the existing `main` branch. In GitHub repository Settings �
 
 Career dates and the 12+ years headline follow the supplied CV; project descriptions and technologies combine the CV and portfolio. Team sizes describe the wider teams, not direct reports. No revenue, performance metrics, testimonials or individual ownership claims have been invented. Store links are supplied document links and may vary in availability by region. Contact buttons open the visitor’s email application; there is no backend form or analytics.
 
-Fonts load from Google Fonts with system fallbacks. All local asset URLs are relative to support the `/profile/` GitHub Pages path.
+Fonts load from Google Fonts with system fallbacks. Local asset URLs are relative so the site works at the root GitHub Pages URL and in local previews.
 
 The Games section lists four Cluvex Tech titles verified against the Google Play developer page. AI copy reflects the CV’s AI-assisted development skill; it does not claim shipped AI products or model-training experience.
