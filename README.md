@@ -1,6 +1,6 @@
 # Vishal Nandoriya — Portfolio
 
-Personal portfolio for interviews, engineering opportunities and client projects. Built with HTML, CSS and vanilla JavaScript for GitHub Pages, with no package installation or build required.
+Personal consultant website for client projects, interviews and engineering opportunities. The page leads with mobile services and a project inquiry, then shows shipped product work, four published Android games within the portfolio, experience and contact options. Built with HTML, CSS and vanilla JavaScript for GitHub Pages, with no package installation or build required.
 
 ## Preview
 
@@ -22,4 +22,4 @@ Career dates and the 12+ years headline follow the supplied CV; project descript
 
 Fonts load from Google Fonts with system fallbacks. Local asset URLs are relative so the site works at the root GitHub Pages URL and in local previews.
 
-The Games section lists four Android puzzle titles with direct Google Play links. AI copy reflects the CV’s AI-assisted development skill; it does not claim shipped AI products or model-training experience.
+The Portfolio section includes four Android puzzle titles with direct Google Play links and retains `#games` as a deep link for existing visitors. AI copy reflects the CV’s AI-assisted development skill; it does not claim shipped AI products or model-training experience.

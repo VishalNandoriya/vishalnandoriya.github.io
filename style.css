@@ -12,3 +12,17 @@ h1,h2{font-family:Georgia,'Times New Roman',serif;font-weight:400;letter-spacing
 
 header nav a[aria-current="location"]{color:var(--blue);text-decoration:underline;text-decoration-color:var(--blue);text-decoration-thickness:2px;text-underline-offset:9px}
 .nav-contact[aria-current="location"]{color:var(--blue);border-bottom:2px solid var(--blue)}
+
+/* Games belong to the portfolio, after the mobile product work. */
+.games-section{margin-top:62px;padding-top:42px}
+.games-section .section-heading{margin-bottom:26px}
+.games-section .section-heading h3{font-size:clamp(25px,2.7vw,34px);letter-spacing:-.7px}
+@media(max-width:640px){.games-section{margin-top:44px;padding-top:32px}.games-section .section-heading>p{margin-top:16px}}
+
+.engagement{display:grid;grid-template-columns:1fr 1.2fr auto;align-items:end;gap:28px;border-top:1px solid #514c43;padding:35px 0 40px}
+.engagement .eyebrow{color:var(--lime);margin-bottom:12px}
+.engagement h3{font-size:22px}
+.engagement>p{color:#d2cdc3;margin:0;max-width:460px}
+.engagement .text-link{white-space:nowrap;color:var(--lime)}
+@media(max-width:900px){.engagement{grid-template-columns:1fr 1.4fr}.engagement .text-link{grid-column:2}}
+@media(max-width:640px){.engagement{grid-template-columns:1fr;gap:14px}.engagement .text-link{grid-column:auto}}
