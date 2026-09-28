@@ -22,4 +22,6 @@ Career dates and the 12+ years headline follow the supplied CV; project descript
 
 Fonts load from Google Fonts with system fallbacks. Local asset URLs are relative so the site works at the root GitHub Pages URL and in local previews.
 
+The hero phone is a CSS illustration of a mobile delivery workflow, labeled as such on the page; it is not a screenshot of a client app. Portfolio jump links provide quick access to app projects and games without a separate Games menu item. The site intentionally does not publish a portrait.
+
 The Portfolio section includes four Android puzzle titles with direct Google Play links and retains `#games` as a deep link for existing visitors. AI copy reflects the CV’s AI-assisted development skill; it does not claim shipped AI products or model-training experience.
