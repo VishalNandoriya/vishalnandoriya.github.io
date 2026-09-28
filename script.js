@@ -22,3 +22,34 @@ const roles = [
 ];
 document.querySelector('#timeline').innerHTML = roles.map(([date,title,company,bullets])=>`<article class="timeline-row"><div class="timeline-date">${date}<span>Ahmedabad, Gujarat</span></div><div><h3>${title}</h3><p class="company">${company}</p><ul>${bullets.map(b=>`<li>${b}</li>`).join('')}</ul></div></article>`).join('');
 document.querySelector('#year').textContent = new Date().getFullYear();
+
+const header = document.querySelector('header');
+const sectionLinks = [...header.querySelectorAll('a[href^="#"]')]
+  .map(link => ({link, section: document.getElementById(link.hash.slice(1))}))
+  .filter(({section}) => section);
+let activeLink = null;
+
+function updateActiveNav() {
+  const threshold = header.getBoundingClientRect().height + Math.min(window.innerHeight * 0.18, 120);
+  let nextLink = null;
+
+  for (const {link, section} of sectionLinks) {
+    if (section.getBoundingClientRect().top <= threshold) nextLink = link;
+  }
+  if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2) {
+    nextLink = sectionLinks.at(-1)?.link ?? nextLink;
+  }
+  if (nextLink === activeLink) return;
+
+  for (const {link} of sectionLinks) {
+    if (link === nextLink) link.setAttribute('aria-current', 'location');
+    else link.removeAttribute('aria-current');
+  }
+  activeLink = nextLink;
+}
+
+window.addEventListener('scroll', updateActiveNav, {passive: true});
+window.addEventListener('resize', updateActiveNav);
+window.addEventListener('hashchange', updateActiveNav);
+window.addEventListener('load', updateActiveNav);
+updateActiveNav();
