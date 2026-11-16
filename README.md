@@ -1,6 +1,6 @@
 # Vishal Nandoriya — Portfolio
 
-Personal consultant website for client projects, interviews and engineering opportunities. The page leads with mobile services and a project inquiry, then shows shipped product work, four published Android games within the portfolio, experience and contact options. Built with HTML, CSS and vanilla JavaScript for GitHub Pages, with no package installation or build required.
+Personal consultant website for client projects, interviews and engineering opportunities. The page introduces Vishal and his mobile engineering work, then presents his skills, experience, projects, services, resume and contact options. Built with HTML, CSS and vanilla JavaScript for GitHub Pages, with no package installation or build required.
 
 ## Preview
 
@@ -24,8 +24,8 @@ An Upwork-specific portfolio is published at https://vishalnandoriya.github.io/u
 
 Career dates and the 12+ years headline follow the supplied CV; project descriptions and technologies combine the CV and portfolio. Team sizes describe the wider teams, not direct reports. No revenue, performance metrics, testimonials or individual ownership claims have been invented. Store links are supplied document links and may vary in availability by region. Contact buttons open the visitor’s email application; there is no backend form or analytics.
 
-Fonts load from Google Fonts with system fallbacks. Local asset URLs are relative so the site works at the root GitHub Pages URL and in local previews.
+The theme uses system fonts and follows the visitor’s color preference on the first visit. The theme switch saves a light or dark choice in the browser. Local asset URLs are relative so the site works at the root GitHub Pages URL and in local previews.
 
-The hero phone is a CSS illustration of a mobile delivery workflow, labeled as such on the page; it is not a screenshot of a client app. Portfolio jump links provide quick access to app projects and games without a separate Games menu item. The site intentionally does not publish a portrait.
+Portfolio jump links provide quick access to app projects and games. The site intentionally does not publish a portrait.
 
 The Portfolio section includes four Android puzzle titles with direct Google Play links and retains `#games` as a deep link for existing visitors. AI copy reflects the CV’s AI-assisted development skill; it does not claim shipped AI products or model-training experience.
